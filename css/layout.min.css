@@ -851,11 +851,24 @@ h3, h4 {
     line-height: 1.1
 }
 
-@media (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 767px){
     .carousel-title {
-        font-size: 60px
+        font-size: 60px;
     }
 }
+
+@media  (max-width: 499px){
+    .carousel-title {
+        font-size: 30px;
+    }
+}
+@media (min-width: 500px) and (max-width: 767px){
+    .p_title{
+        font-size: 15px;
+    }
+}
+
+
 
 .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div, .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div > div {
     background-color: #fff !important;
@@ -1068,8 +1081,8 @@ h3, h4 {
 }
 
 .content-lg {
-    padding-top: 116px;
-    padding-bottom: 100px
+    padding-top: 50px;
+    padding-bottom: 25px
 }
 
 .parallax-content {

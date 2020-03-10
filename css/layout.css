@@ -981,11 +981,12 @@ fieldset[disabled] .btn-theme {
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 940px){
   .carousel-title {
     font-size: 60px;
   }
 }
+
 
 /*----------------------------------
   Custome Style of Info Window
