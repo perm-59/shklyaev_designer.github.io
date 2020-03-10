@@ -81,15 +81,19 @@
     </div>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" >
         <div class="item active">
-            <img class="img-responsive" src="img/1920x1080/bg3.jpg" alt="Slider Image">
+            <img class="img-responsive" src="img/1920x1080/bg3.jpg" alt="Slider Image" >
             <div class="container">
                 <div class="carousel-centered">
-                    <div class="margin-b-40">
-                        <h4>Phone 8-919-48-919-25</h4>
-                        <h4>Telegram @roman_yu_59</h4>
-                    </div>
+                    <!--<div>
+                        <h1 class="" style="color: white; margin-left: 20px;">Contacts</h1>
+                    </div>-->
+                    <a href="tel:+120345678910" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" style="margin-bottom: 10px;" data-toggle="modal" data-target="#myModal">Phone</a>
+                    <br>
+                    <a href="tg://resolve?domain=@roman_yu_59" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" style="margin-bottom: 10px;">Telegram</a>
+                    <br>
+                    <a href="mailto:shklyaev_ryu@mail.ru" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" style="margin-bottom: 10px;">Mail</a>
                 </div>
             </div>
         </div>
@@ -110,6 +114,28 @@
 <script src="js/components/wow.min.js" type="text/javascript"></script>
 <script src="js/components/swiper.min.js" type="text/javascript"></script>
 <script src="js/components/masonry.min.js" type="text/javascript"></script>
+
+
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Телефон для  связи</h4>
+            </div>
+            <div class="modal-body">
+                <h3> +7-123-12-187-11</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 </body>
 </html>

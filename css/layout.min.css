@@ -840,7 +840,8 @@ h3, h4 {
     top: 50%;
     -webkit-transform: translate3d(0, -50%, 0);
     -moz-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0)
+    transform: translate3d(0, -50%, 0);
+    background-repeat: no-repeat;
 }
 
 .carousel-title {
@@ -1370,4 +1371,8 @@ h3, h4 {
 
 .height-400 {
     height: 400px !important
+}
+
+.styles{
+    color: white;
 }
