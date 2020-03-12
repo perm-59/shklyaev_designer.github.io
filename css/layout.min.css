@@ -868,7 +868,9 @@ h3, h4 {
     }
 }
 
-
+.mr {
+    margin-right: 15px;
+}
 
 .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div, .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div > div {
     background-color: #fff !important;
