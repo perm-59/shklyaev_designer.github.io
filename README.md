@@ -1,1 +1,0 @@
-# shklyaev_designer.github.io
