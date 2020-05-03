@@ -403,6 +403,7 @@ textarea.form-control {
 	text-align: center;
 	padding: 40px 20px;
 	margin: 0 0 20px;
+	min-height: 260px;
 }
 
 .iconbox-icon {
@@ -540,6 +541,8 @@ textarea.form-control {
 	font-size: 11px;
 	letter-spacing: 3px;
 	color: #222;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
 }
 
 .navbar-custom .nav li.active,
